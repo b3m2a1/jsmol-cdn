@@ -95,7 +95,7 @@ Jmol.Info = {
 			//j2sPath: "j2s", 
 			use: "HTML5", // could be JAVA or HTML5
 			// the serverURL path is only used to load binary files in Safari, Chrome, and MSIE
-			serverURL: "http://your.server.here/jsmol.php", // required for binary file loading (Spartan, .gz, .map, etc.)
+			serverURL: "https://chemapps.stolaf.edu/jmol/jsmol/php/jsmol.php", // required for binary file loading (Spartan, .gz, .map, etc.)
 	disableJ2SLoadMonitor: false,
 	disableInitialConsole: true
 
