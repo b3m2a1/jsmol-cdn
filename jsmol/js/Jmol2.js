@@ -99,9 +99,7 @@ Jmol.Info = {
 			// the serverURL path is only used to load binary files in Safari, Chrome, and MSIE
 			serverURL: "https://chemapps.stolaf.edu/jmol/jsmol/php/jsmol.php", // required for binary file loading (Spartan, .gz, .map, etc.)
 	disableJ2SLoadMonitor: false,
-	disableInitialConsole: true,
-	width: "100%",
-	height: "100%"
+	disableInitialConsole: true
 
 }
 
