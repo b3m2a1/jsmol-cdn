@@ -88,8 +88,7 @@ Note that:
 
 */
 
-if (typeof _jmo2Loaded === 'undefined') {
-	var _jmo2Loaded = true;
+if (typeof _jmol === 'undefined' || _jmol._applets.length == 0) {
 
 Jmol.Info = {      
 			// uncomment one or more of these next lines only if you want to override jmolInitialize()
