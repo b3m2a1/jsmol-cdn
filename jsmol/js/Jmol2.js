@@ -88,7 +88,7 @@ Note that:
 
 */
 
-if (typeof _jmol === 'undefined' || _jmol._applets.length == 0) {
+if (typeof _jmol === 'undefined' || Object.keys(_jmol.applets.length).length == 0) {
 
 Jmol.Info = {      
 			// uncomment one or more of these next lines only if you want to override jmolInitialize()
