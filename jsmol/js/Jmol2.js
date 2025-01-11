@@ -94,7 +94,7 @@ Jmol.Info = {
 			// uncomment one or more of these next lines only if you want to override jmolInitialize()
 			//jarPath: "java", 
 			//jarFile: "JmolAppletSigned0.jar", 
-			//j2sPath: "j2s", 
+			j2sPath: "https://cdn.jsdelivr.net/gh/b3m2a1/jsmol-cdn@16.3.7.4/jsmol/j2s",
 			use: "HTML5", // could be JAVA or HTML5
 			// the serverURL path is only used to load binary files in Safari, Chrome, and MSIE
 			serverURL: "https://chemapps.stolaf.edu/jmol/jsmol/php/jsmol.php", // required for binary file loading (Spartan, .gz, .map, etc.)
