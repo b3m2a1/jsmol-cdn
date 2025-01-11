@@ -88,6 +88,9 @@ Note that:
 
 */
 
+if (typeof _jmo2Loaded !== 'undefined') {
+	var _jmo2Loaded = true;
+
 Jmol.Info = {      
 			// uncomment one or more of these next lines only if you want to override jmolInitialize()
 			//jarPath: "java", 
@@ -456,3 +459,4 @@ function jmolAppletAddParam(appletCode,name,value){
 	alert ("use Info to add a parameter: " + name + "/" + value)
 }
 
+}
