@@ -88,7 +88,7 @@ Note that:
 
 */
 
-if (typeof _jmo2Loaded !== 'undefined') {
+if (typeof _jmo2Loaded === 'undefined') {
 	var _jmo2Loaded = true;
 
 Jmol.Info = {      
