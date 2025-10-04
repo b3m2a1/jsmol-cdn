@@ -13695,7 +13695,7 @@ Jmol._debugCode = (document && document.location && document.location.href.index
 				t = "";
 			} else {
 				this._deferApplet = true;
-				t += '<img width=0 height=0 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror=' + id + '._cover(false) >';
+				t += '<img width=0 height=0 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onload=' + id + '._cover(false) >';
 			}
 			t += Jmol._getWrapper(this, false);
 			if (Info.addSelectionOptions)
